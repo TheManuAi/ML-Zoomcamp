@@ -1,0 +1,21 @@
+flask==3.0.0
+gunicorn==21.2.0
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.26.2
+requests==2.31.0
+
+
+# one way to run is by 
+# pip install -r requirements.txt
+
+# another is 
+# pipenv install 
+# and then running the env
+# pipenv run python predict.py
+
+
+# to run the program 
+# gunicorn --bind 0.0.0.0:1234 predict:app
+# and then testing the service 
+# python predict-test.py
