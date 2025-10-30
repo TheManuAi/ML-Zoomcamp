@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+.python-version
+
+# Virtual environments
+.venv/
+
+# Model files
+*.bin
+
+# uv
+uv.lock

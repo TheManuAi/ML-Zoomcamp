@@ -1,0 +1,11 @@
+[project]
+name = "week5"
+version = "0.1.0"
+description = "homework of week 5 for ml zoomcamp"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "scikit-learn==1.6.1",
+    "fastapi",
+    "uvicorn",
+]
