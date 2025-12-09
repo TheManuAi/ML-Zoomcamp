@@ -1,1 +1,5 @@
 *.h5
+
+# Ignore data folders
+Homework/data/
+**/data/
