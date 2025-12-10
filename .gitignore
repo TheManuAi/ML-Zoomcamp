@@ -1,5 +1,13 @@
-*.h5
-
 # Ignore data folders
 Homework/data/
 **/data/
+
+# Ignore model files
+*.h5
+*.onnx
+*.onnx.data
+*.pkl
+*.pth
+*.pt
+*.pb
+*.tflite
